@@ -1,0 +1,54 @@
+body {
+    background-image:url('image/Colorful\ Abstract\ Artistic\ Modern\ Facebook\ Cover.png ');
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+h1{
+    color: black;
+}
+  
+.container {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(222, 118, 33);
+}
+  
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.card {
+    background-color: rgb(218, 62, 51);
+    width: 10vw;
+    height: 10vw;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+  
+.card p:nth-child(3) {
+    color: black;
+    margin: 0;
+}
+  
+.card p:nth-child(2) {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+  

@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <!--Membuat Navbar-->
+    <nav class="navbar ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top brand-logo">
+             </a>
+        </div>
+      </nav>
+
+    <!--Membuat Judul-->
+    <div class="container">
+      <h1>Covid - 19 Tracker</h1>
+
+      <div>
+        <input type="text" id="input" />
+        <button id="button">Get Data</button>
+      </div>
+
+      <!--Membuat Content-->
+      <div class="data-container">
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/active.png" class="card-img-top" style="height: 70px; width: 70px;">
+            <div class="card-body" style="text-align: center;">
+                <p>Active Cases</p>
+                <p id="active-cases">0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/newcases.png" class="card-img-top" style="height: 70px; width: 70px;">
+            <div class="card-body" style="text-align: center;">
+                <p>New Cases</p>
+                <p id="new-cases">0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/recovered.png" class="card-img-top" style="height: 70px; width: 70px;">
+            <div class="card-body" style="text-align: center;">
+                <p>Recovered Cases</p>
+                <p id="recovered-cases">0</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/total.png" class="card-img-top" style="height: 70px; width: 70px;">
+            <div class="card-body" style="text-align: center;">
+                <p>Total Cases</p>
+                <p id="total-cases">0</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100">
+              <img src="image/death.png" class="card-img-top" style="height: 70px; width: 70px;">
+              <div class="card-body" style="text-align: center;">
+                <p>Total Deaths</p>
+                <p id="total-deaths">0</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100">
+              <img src="image/test.png" class="card-img-top" style="height: 70px; width: 70px;">
+              <div class="card-body" style="text-align: center;">
+                <p>Total Test</p>
+                <p id="total-test">0</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>   
+    </div>
+  </body>
+</html>
+
 
